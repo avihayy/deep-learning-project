@@ -8,18 +8,17 @@ Our Network is trained to detect all vehicles in each frame. We used videos of c
 
 Detection folder:
 * Detector.py
-
 *	model.py
-•	yolo.py
-•	yolo_anchors.txt
-•	data_classes.txt
+*	yolo.py
+*	yolo_anchors.txt
+*	data_classes.txt
 Training folder:
-•	Train_Main.py
-•	Train_Model.py
-•	Train_Utils.py
-•	csv2txt_convert.py
-•	yolo_anchors.txt
-•	data_classes.txt
+*	Train_Main.py
+*	Train_Model.py
+*	Train_Utils.py
+*	csv2txt_convert.py
+*	yolo_anchors.txt
+*	data_classes.txt
 
 Since our Data-set is very big, we didn't able to upload it to the github, therefore you can find our data-set at the following Drive link:
 https://drive.google.com/drive/folders/1rHVssHFWw_SHX45BQcnHLU6HIFm_HIRk?usp=sharing
