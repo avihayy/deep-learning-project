@@ -24,7 +24,7 @@ Training folder:
 Since our Data-set is very big, we didn't able to upload it to the github, therefore you can find our data-set and the pre-trained weights at the following Drive link:
 https://drive.google.com/drive/folders/1rHVssHFWw_SHX45BQcnHLU6HIFm_HIRk?usp=sharing
 
-How to run:
+#### How to run: ####
 
 a.	Convert the annotation file from csv file to txt file:
 convert the annotation file from csv file to txt file by using the module “csv2txt_convert.py” and insert it the following switches:
@@ -35,11 +35,11 @@ The csv file with the tagged frames are in the folder we shared in the drive lin
 Data/Source_Video/Training_Frames/location_name
 
 And the location-name can be one of the following:
-o	HATZAV
-o	Jisr
-o	kfar_saba_east
-o	ofakim
-o	holot
+* HATZAV
+* Jisr
+* Kfar_saba_east
+* Ofakim
+* Holot
 
 2.	--camera_name - the name of the camera (location), should be match to the name of the location that the frames were taken.
 
