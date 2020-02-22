@@ -37,10 +37,10 @@ Data/Source_Video/Training_Frames/location_name
 
 And the location-name can be one of the following:
 * HATZAV
-* Jisr
-* Kfar_saba_east
-* Ofakim
-* Holot
+* jisr
+* kfar_saba_east
+* ofakim
+* holot
 
 2.	--camera_name - the name of the camera (location), should be match to the name of the location that the frames were taken.
 
