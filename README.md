@@ -82,5 +82,6 @@ Data/Source_Video/Video_Test/location name"
 
 where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot 
 (must be consistent in all stages).
+
 5.	--output_path - Output path for detection video results.
 
