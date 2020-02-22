@@ -12,6 +12,7 @@ Detection folder:
 *	yolo.py
 *	yolo_anchors.txt
 *	data_classes.txt
+
 Training folder:
 *	Train_Main.py
 *	Train_Model.py
@@ -20,7 +21,7 @@ Training folder:
 *	yolo_anchors.txt
 *	data_classes.txt
 
-Since our Data-set is very big, we didn't able to upload it to the github, therefore you can find our data-set at the following Drive link:
+Since our Data-set is very big, we didn't able to upload it to the github, therefore you can find our data-set and the pre-trained weights at the following Drive link:
 https://drive.google.com/drive/folders/1rHVssHFWw_SHX45BQcnHLU6HIFm_HIRk?usp=sharing
 
 How to run:
@@ -28,8 +29,11 @@ How to run:
 a.	Convert the annotation file from csv file to txt file:
 convert the annotation file from csv file to txt file by using the module “csv2txt_convert.py” and insert it the following switches:
 1.	--Frames_Folder: Absolute path to the folder of the csv file and the tagged frames. 
+
 The csv file with the tagged frames are in the folder we shared in the drive link, “Data”, at the path:
+
 Data/Source_Video/Training_Frames/location_name
+
 And the location-name can be one of the following:
 o	HATZAV
 o	Jisr
@@ -37,13 +41,14 @@ o	kfar_saba_east
 o	ofakim
 o	holot
 
-2.	--camera_name - the name of the camera (location), should be match to the name of the location that the frames were taken. 
+2.	--camera_name - the name of the camera (location), should be match to the name of the location that the frames were taken.
+
 In our case, Can be one of the following:
-o	HATZAV : "HATZAV"
-o	jisr: "jisr"
-o	kfar saba east: "kfar"
-o	ofakim: "ofakim"
-o	holot: "holot".
+* HATZAV : "HATZAV"
+* Jisr: "jisr"
+* Kfar saba east: "kfar"
+* Ofakim: "ofakim"
+* Holot: "holot".
 
 
 
@@ -62,9 +67,9 @@ where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot, according to yo
 c.	Testing Our Model:
 Test our model by using the module “Detector.py” and insert it the following switches:
 1.	--threshold_mode - set the threshold mode. Can be one of the following:
-o	"counting" = threshold define by number of the vehicles (integer) in threshold_low, threshold_high.
-o	"density" = threshold define by the density of the vehicles (float between 0-1) in threshold_low, threshold_high.
-o	"velocity" = threshold define by the velocity of the vehicles (integer which indicates [kmh]) in threshold_low, threshold_high.
+* "counting" = threshold define by number of the vehicles (integer) in threshold_low, threshold_high.
+* "density" = threshold define by the density of the vehicles (float between 0-1) in threshold_low, threshold_high.
+* "velocity" = threshold define by the velocity of the vehicles (integer which indicates [kmh]) in threshold_low, threshold_high.
 2.	--threshold_low - set the upper threshold density for low congestion.
 3.	--threshold_high - set the lower threshold density for high congestion.
 4.	--input_path - Absolute path to video directory for making detection.
