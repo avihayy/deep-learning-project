@@ -64,6 +64,7 @@ If None the original weights of COCO will be loaded.
 
 All our pre-trained weights are in the folder we shared in the drive link, “Data”, at the path: 
 Data/Model_Weights/location_name/trained_weights_final.h5"
+
 where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot, according to your choice (must be consistent in all stages).
 
 c.	Testing Our Model:
@@ -78,6 +79,7 @@ Test our model by using the module “Detector.py” and insert it the following
 4.	--input_path - Absolute path to video directory for making detection.
 All the videos for tests are in the folder we shared in the drive link, “Data”, at the path:
 Data/Source_Video/Video_Test/location name"
+
 where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot 
 (must be consistent in all stages).
 5.	--output_path - Output path for detection video results.
