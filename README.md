@@ -85,3 +85,5 @@ where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot
 
 5.	--output_path - Output path for detection video results.
 
+ #### Our Results: ####
+https://drive.google.com/drive/folders/1T71ZAuHRKwejs5RrOnxhqbPWCxWfJAZe?usp=sharing
