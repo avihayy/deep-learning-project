@@ -27,6 +27,7 @@ https://drive.google.com/drive/folders/1rHVssHFWw_SHX45BQcnHLU6HIFm_HIRk?usp=sha
 #### How to run: ####
 
 a.	Convert the annotation file from csv file to txt file:
+
 convert the annotation file from csv file to txt file by using the module “csv2txt_convert.py” and insert it the following switches:
 1.	--Frames_Folder: Absolute path to the folder of the csv file and the tagged frames. 
 
@@ -52,7 +53,8 @@ In our case, Can be one of the following:
 
 
 
-b.	Training Our model
+b.	Training Our model:
+
 Train our model using the module “Train_Main.py” and insert it the following switches:
 1.	– epochs - choose the number of epochs for the training, defult is -300
 2.	--annotation_file - Absolute Path to the annotations file: “data_train.txt “ that you made with csv2txt_convert.py.
@@ -65,6 +67,7 @@ Data/Model_Weights/location_name/trained_weights_final.h5"
 where location name is: HATZAV/jisr/kfar_saba_east/ofakim/holot, according to your choice (must be consistent in all stages).
 
 c.	Testing Our Model:
+
 Test our model by using the module “Detector.py” and insert it the following switches:
 1.	--threshold_mode - set the threshold mode. Can be one of the following:
 * "counting" = threshold define by number of the vehicles (integer) in threshold_low, threshold_high.
