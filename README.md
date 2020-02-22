@@ -1,12 +1,15 @@
-Traffic congestion detection using YOLOv3
+# Traffic congestion detection using YOLOv3 #
+
 In Our study we used computer vision and deep learning in order to detect and classify traffic congestion from camera images. We based on YOLOv3[15] (you only look once), which is currently the state of the art for real time processing method.
 We have focused especially at crossroads, since there the high congestion can be prevented by proper regulation of traffic and the utilization of smart traffic lights.
 Our Network is trained to detect all vehicles in each frame. We used videos of car traffic at different times and at different traffic congestion in order to show that our model can perform well in challenging conditions as well. 
 
-This repository contains the following files: 
+#### This repository contains the following files: ####
+
 Detection folder:
-•	Detector.py
-•	model.py
+* Detector.py
+
+*	model.py
 •	yolo.py
 •	yolo_anchors.txt
 •	data_classes.txt
